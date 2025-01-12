@@ -3,7 +3,7 @@ const app = express();
  
 // Endpoint da API
 app.get('/api/gatilho', (req, res) => {
-    res.send('permitido'); // Altere para "bloqueado" quando necessário
+    res.send('bloqueado'); // Altere para "bloqueado" quando necessário
 });
  
 // Configura a porta
